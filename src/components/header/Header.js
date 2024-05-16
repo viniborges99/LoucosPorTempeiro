@@ -1,6 +1,8 @@
 import React from 'react';
 import {HeaderContainer,Container,Logo, NavBar,NavLi,NavLink,NavUl, NavA} from './styles';
 import {Link} from 'react-router-dom';
+import Sobre from  '../sobre';
+
 
 
 
@@ -31,6 +33,7 @@ function Header() {
           </NavUl>
         </NavBar>
       </Container>
+      <Sobre/>
     </HeaderContainer>
   );
 }
