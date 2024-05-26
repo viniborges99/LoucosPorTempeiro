@@ -1,10 +1,10 @@
 import React from 'react';
 
-function tempero (){
+function Evento (){
   return(
     <div>
       <h1>Evento</h1>
     </div>
   );
 }
-export default tempero;
+export default Evento;

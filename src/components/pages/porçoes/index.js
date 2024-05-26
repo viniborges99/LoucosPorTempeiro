@@ -1,10 +1,10 @@
 import React from 'react';
 
-function porcao (){
+function Porcao (){
   return(
     <div>
       <h1>Porção</h1>
     </div>
   );
 }
-export default porcao;
+export default Porcao;

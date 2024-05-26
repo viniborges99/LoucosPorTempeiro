@@ -1,12 +1,16 @@
 import React from 'react';
-
+import Header from '../../header/Header';
+import Sobre from '../../sobre/index';
+import Produto from '../../pages/produtos';
+import Footer from '../footer';
 function Home (){
   return(
-    <div>
-      <h1>
-        ola mundo tudo bem
-      </h1>
-    </div>
+    <>
+      <Header/>
+      <Sobre/>
+      <Produto/>
+      <Footer/>
+    </>
 
     
 

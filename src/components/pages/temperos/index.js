@@ -1,10 +1,10 @@
 import React from 'react';
 
-function tempero (){
+function Tempero (){
   return(
     <div>
-      <h1>temepro</h1>
+      <h1>tempero</h1>
     </div>
   );
 }
-export default tempero;
+export default Tempero;
