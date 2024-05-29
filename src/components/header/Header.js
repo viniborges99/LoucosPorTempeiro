@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const numeroWhatsApp = '5519998301882'; // Número de telefone para o WhatsApp
+  const numeroWhatsApp = '5519998301882'; 
   const mensagem = 'Olá nos da equipe loucos por temperos ficamos muito felizes em tê-lo(a) por aqui, o que podemos fazer por voce hoje?';
   const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
 
@@ -51,7 +51,7 @@ function Header() {
             <SideNavLink as={Link} to="/Porcoes" onClick={closeMenu}>Porções</SideNavLink>
           </SideNavLi>
           <SideNavLi>
-            <SideNavLink as={Link} to="/Temperos" onClick={closeMenu}>Temperos</SideNavLink>
+            <SideNavLink as={Link} to="/Temperos" onClick={closeMenu}>Tempeiros</SideNavLink>
           </SideNavLi>
           <SideNavLi>
             <SideNavLink href={linkWhatsApp} target="_blank" rel="noopener noreferrer" onClick={closeMenu}>Contato</SideNavLink>

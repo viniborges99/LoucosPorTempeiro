@@ -1,6 +1,6 @@
 import React from 'react';
 import { ContainerProduct,ContainerItens,P,Card,ImgCard,TitleCard,Title} from './styles';
-import Tempeiro from '../../../assets/tempeiro.jpg';
+import ProdutoImg from '../../../assets/produtos.jpg';
 
 function Produtos(){
   return(
@@ -8,33 +8,33 @@ function Produtos(){
       <Title>Produtos</Title>
       <ContainerItens>
         <Card>
-          <TitleCard>titulo</TitleCard>
-          <ImgCard src={Tempeiro}/>
+          <TitleCard>Titulo</TitleCard>
+          <ImgCard src={ProdutoImg}/>
           <P>Descrição do produto</P>
         </Card>
         <Card>
-          <TitleCard>titulo</TitleCard>
-          <ImgCard src={Tempeiro}/>
+          <TitleCard>Titulo</TitleCard>
+          <ImgCard src={ProdutoImg}/>
           <P>Descrição do produto</P>
         </Card>
         <Card>
-          <TitleCard>titulo</TitleCard>
-          <ImgCard src={Tempeiro}/>
+          <TitleCard>Titulo</TitleCard>
+          <ImgCard src={ProdutoImg}/>
           <P>Descrição do produto</P>
         </Card>
         <Card>
-          <TitleCard>titulo</TitleCard>
-          <ImgCard src={Tempeiro}/>
+          <TitleCard>Titulo</TitleCard>
+          <ImgCard src={ProdutoImg}/>
           <P>Descrição do produto</P>
         </Card>
         <Card>
-          <TitleCard>titulo</TitleCard>
-          <ImgCard src={Tempeiro}/>
+          <TitleCard>Titulo</TitleCard>
+          <ImgCard src={ProdutoImg}/>
           <P>Descrição do produto</P>
         </Card>
         <Card>
-          <TitleCard>titulo</TitleCard>
-          <ImgCard src={Tempeiro}/>
+          <TitleCard>Titulo</TitleCard>
+          <ImgCard src={ProdutoImg}/>
           <P>Descrição do produto</P>
         </Card>
         

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const ContainerProduct = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@ export const ContainerProduct = styled.div`
 
 export const ContainerItens = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px; 
   margin-bottom: 50px;
 
@@ -29,24 +29,27 @@ export const ContainerItens = styled.div`
 export const Title = styled.p`
   width: 100%;
   text-align: center;
-  letter-spacing: 8px;
-  padding: 20px;
-  margin-bottom: 30px;
+  padding: 40px;
+  margin: 50px 0;
   font-weight: 800;
-  font-size: 2.6rem;
-  background: #402721;
-  color: #F2B90C;
+  font-size: 3rem;
+  background: #F2E3B3;
+  color: #402721;
   border-bottom: 2px solid white;
-  
+  letter-spacing: 10px;
 
   @media (max-width: 768px) {
     font-size: 2rem;
     padding: 15px;
+    letter-spacing: 5px;
+    margin: 30px 0;
   }
 
   @media (max-width: 480px) {
     font-size: 2rem;
     padding: 10px;
+    letter-spacing: 3px;
+    margin: 20px 0;
   }
 `;
 
@@ -84,10 +87,9 @@ export const Card = styled.div`
 `;
 
 export const TitleCard = styled.p`
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
-  letter-spacing: 3px;
 
   @media (max-width: 768px) {
     font-size: 1.1rem;
