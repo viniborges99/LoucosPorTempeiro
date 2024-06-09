@@ -48,6 +48,10 @@ export const Title = styled.p`
     font-size: 2rem;
     padding: 10px;
   }
+  @media (max-width: 380px) {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
 `;
 
 export const P = styled.p`
@@ -61,6 +65,7 @@ export const P = styled.p`
   @media (max-width: 480px) {
     font-size: 0.8rem;
   }
+  
 `;
 
 export const Card = styled.div`
@@ -80,6 +85,9 @@ export const Card = styled.div`
 
   @media (max-width: 480px) {
     padding: 8px;
+  }
+  @media (max-width: 380px) {
+    padding:5px;
   }
 `;
 

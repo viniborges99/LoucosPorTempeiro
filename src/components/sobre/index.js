@@ -17,7 +17,6 @@ function Sobre() {
       </ContainerSecundario>
 
     </Container>
-
   );
 }
 

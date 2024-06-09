@@ -28,9 +28,7 @@ function Header() {
               <NavLi>
                 <NavLink as={Link} to="/Evento">Eventos</NavLink>
               </NavLi>
-              <NavLi>
-                <NavLink as={Link} to="/Porcoes">Porções</NavLink>
-              </NavLi>
+              
               <NavLi>
                 <NavLink as={Link} to="/Temperos">Tempeiros</NavLink>
               </NavLi>
@@ -47,9 +45,7 @@ function Header() {
           <SideNavLi>
             <SideNavLink as={Link} to="/Evento" onClick={closeMenu}>Eventos</SideNavLink>
           </SideNavLi>
-          <SideNavLi>
-            <SideNavLink as={Link} to="/Porcoes" onClick={closeMenu}>Porções</SideNavLink>
-          </SideNavLi>
+          
           <SideNavLi>
             <SideNavLink as={Link} to="/Temperos" onClick={closeMenu}>Tempeiros</SideNavLink>
           </SideNavLi>
