@@ -87,6 +87,7 @@ export const P = styled.p`
 
 export const ContainerImg = styled.div`
   width: 100%;
+  height: 50%;
   text-align: center;
 
   img {

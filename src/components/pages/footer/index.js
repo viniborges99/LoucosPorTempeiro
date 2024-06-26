@@ -20,4 +20,4 @@ function Footer (){
 } 
 
 export default Footer;
-
+//colocar o link do instagran do loucos
