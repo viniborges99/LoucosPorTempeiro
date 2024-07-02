@@ -18,44 +18,52 @@ function Tempero (){
       <Title>Temperos</Title>
       <ContainerItens>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Dry Rub Aves</TitleCard>
           <ImgCard src={RubAves}/>
-          <P>Descrição do produto</P>
+          <P> Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+            É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Dry Rub Carnes Vermelhas</TitleCard>
           <ImgCard src={RubCarneVermelha}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Sal de Parrilla com Noz Moscada</TitleCard>
           <ImgCard src={ParrilhaMoscada}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Sal de Parrilla com Hortelã e Especiarias</TitleCard>
           <ImgCard src={ParrilhaHortela}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Sal de Parrilla com Pimenta e Especiarias</TitleCard>
           <ImgCard src={ParrilhaPimenta}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Sal de Parrilla com chimichurri</TitleCard>
           <ImgCard src={ParrilhaChimichurri}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Sal de Parrilla</TitleCard>
           <ImgCard src={Parrilha}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
         <Card>
-          <TitleCard>Titulo</TitleCard>
+          <TitleCard>Diversidade em Temperos</TitleCard>
           <ImgCard src={Todos}/>
-          <P>Descrição do produto</P>
+          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
+          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
         </Card>
       </ContainerItens>
       <Footer/>

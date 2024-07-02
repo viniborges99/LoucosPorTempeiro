@@ -55,8 +55,12 @@ export const Title = styled.p`
 
 export const P = styled.p`
 
+  text-align: justify;
   font-size: 1rem;
   margin: 8px 0;
+  border-top: 1px solid #402721;
+  padding-top: 15px;
+
 
 
 
@@ -74,8 +78,8 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  height: 500px;
+  max-width: 90%;
+  height: 700px;
   padding: 16px;
   background-color: white;
   border-radius: 8px;
@@ -100,10 +104,11 @@ export const Card = styled.div`
 export const TitleCard = styled.p`
   width: 100%;
   text-align: center;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 800;
   margin-bottom: 8px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid  #402721;
+  ;
 
   @media (max-width: 768px) {
     font-size: 1.1rem;
@@ -116,8 +121,8 @@ export const TitleCard = styled.p`
 
 export const ImgCard = styled.img`
   max-width: 100%;
-  height: auto;
-  max-height: 90%; 
+  
+  max-height: 60%; 
   border-radius: 4px;
   object-fit: cover;
 
