@@ -13,7 +13,7 @@ export const ContainerProduct = styled.div`
 
 export const ContainerItens = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px; 
   margin-bottom: 50px;
 
@@ -55,8 +55,10 @@ export const Title = styled.p`
 `;
 
 export const P = styled.p`
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 8px 0;
+  font-weight: bold;
+  
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
@@ -70,6 +72,7 @@ export const P = styled.p`
 
 export const Card = styled.div`
   display: flex;
+   max-width:80%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;

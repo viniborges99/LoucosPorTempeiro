@@ -91,8 +91,8 @@ export const ContainerImg = styled.div`
   text-align: center;
 
   img {
-    width: 90%;
-    max-width: 550px;
+    width: 100%;
+    max-width: 750px;
     border-radius: 5px;
   }
 
