@@ -57,7 +57,7 @@ export const Title = styled.p`
 export const P = styled.p`
   font-size: 1.2rem;
   margin: 8px 0;
-  font-weight: bold;
+  font-weight: 600;
   
 
   @media (max-width: 768px) {
@@ -65,7 +65,7 @@ export const P = styled.p`
   }
 
   @media (max-width: 480px) {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   
 `;
@@ -96,16 +96,16 @@ export const Card = styled.div`
 
 export const TitleCard = styled.p`
   font-size: 1.9rem;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 8px;
-  letter-spacing: 3px;
+ 
 
   @media (max-width: 768px) {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
 
   @media (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 `;
 
