@@ -86,26 +86,34 @@ export const P = styled.p`
 `;
 
 export const ContainerImg = styled.div`
-  width: 100%;
+  width: 100%;  
   text-align: center;
-  object-fit: contain;
-  img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  video {
+    border-radius: 20px;
+    object-fit: contain;
+    padding: 80px 0px 10px 0px;
     
-    border-radius: 5px;
-    margin-bottom: 30px;
+    
   }
 
   @media (min-width: 768px) {
     width: 50%;
-    img {
-      width: 50%;
+
+    video {
+      width: 40%;
     }
   }
-  @media (max-width: 380px) {
-    img{
-      width: 80%;
-      height: 40%;
-      
+
+  @media (max-width: 414px) {
+    margin-bottom: 30px;
+
+    video {
+      width: 100%;
+      height: 30%;
     }
   }
 `;

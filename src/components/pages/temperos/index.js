@@ -20,50 +20,47 @@ function Tempero (){
         <Card>
           <TitleCard>Dry Rub Aves</TitleCard>
           <ImgCard src={RubAves}/>
-          <P> Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-            É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P> É uma mistura de condimentos secos que é aplicada para dar sabor às carnes antes de irem para o forno, grelha ou churrasqueira. É muito comum nos churrascos norte americano. • exterior da carne terá uma camada mais forte e intensa, com uma camada coloração bem caramelizada, isso se da pela presença do açúcar mascavo presente na receita.o ao azeite e colocar em suas saladas de folhas.</P>
         </Card>
         <Card>
           <TitleCard>Dry Rub Carnes Vermelhas</TitleCard>
           <ImgCard src={RubCarneVermelha}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>É uma mistura de temperos e erva: seca com a finalidade de temperar as carnes bovinas, potencializando sabor e formando uma crosta na carne retendo o seu suco. A aplicação do Dry Rub é feita na carne antes dela ser defumada, grelhada ou assada.
+          Contém Pimenta do Reino.ode misturá-lo ao azeite e colocar em suas saladas de folhas.</P>
         </Card>
         <Card>
           <TitleCard>Sal de Parrilla com Noz Moscada</TitleCard>
           <ImgCard src={ParrilhaMoscada}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>Essa mistura é um ótimo tempero para saladas e grelhados.
+          Experimente temperar um filé de sua preferência com este sal e um pouco de limão e veja seu sabor realçar. Você também pode mistur lo ao azeite e colocar em suas saladas de folhas</P>
         </Card>
         <Card>
           <TitleCard>Sal de Parrilla com Hortelã e Especiarias</TitleCard>
           <ImgCard src={ParrilhaHortela}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>Criado com base de ervas com uma mistura de especiarias.
+          Pode ser usado nos cortes: bovinos, suínos, equínos e cordeiros</P>
         </Card>
         <Card>
           <TitleCard>Sal de Parrilla com Pimenta e Especiarias</TitleCard>
           <ImgCard src={ParrilhaPimenta}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>Feito a base de pimentas calabresa em flocos, cebola e especiarias. Recomendado para todos os tipos de cortes dando um leve toque picante à sua carne. usado nos cortes: bovinos, suínos, equínos e cordeiros.</P>
         </Card>
         <Card>
           <TitleCard>Sal de Parrilla com chimichurri</TitleCard>
           <ImgCard src={ParrilhaChimichurri}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>Essa mistura é um ótimo tempero para saladas e grelhados.
+          Experimente temperar um filé de sua preferência com este sal e um pouco de limão e veja seu sabor realçar. Você também pode misturá-lo ao azeite e colocar em suas saladas de folhas.</P>
         </Card>
         <Card>
           <TitleCard>Sal de Parrilla</TitleCard>
           <ImgCard src={Parrilha}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>Este tempero feito à base de salsa, pimenta vermelha e alho é tipicamente Argentino e indispensável em qualquer churrasco que se preze.
+          Ingredientes: Alho, salsa, pimentão vermelho, orégano e pimenta do reino branca.</P>
         </Card>
         <Card>
           <TitleCard>Diversidade em Temperos</TitleCard>
           <ImgCard src={Todos}/>
-          <P>Da mesma família do alho, da cebola e do alho-poró, a cebolinha é a base do cheiro verde. A ciboulette é mais usada em sopas, cremes, omeletes e peixes.
-          É importante usá-las apenas para finalizar pratos, pois o calor as faz perder sabor.Dica consul: já pensou em dar um gostinho a mais no clássico ovo mexido? Experimente adicionar cebolinha para finalizar.</P>
+          <P>Todos os nossos temperos são preparados com muito carinho e feitos de maneira totalmente artesanal, dando aquele sabor inesquecível à sua comida. Nossos temperos, além de dar sabor às suas refeições, também contribuem para a melhora da sua saúde, reduzindo o risco de doenças, ajudando no controle do açúcar, melhorando a digestão e combatendo o estresse.</P>
         </Card>
       </ContainerItens>
       <Footer/>
