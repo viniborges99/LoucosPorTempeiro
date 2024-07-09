@@ -17,7 +17,7 @@ function Evento() {
             <P>Com o uso inteligente das ferramentas como a programação, design de interfaces e análise de dados, é possível não apenas dar vida a ideias, mas também moldar o futuro digital de maneira significativa. O segredo está em entender as necessidades do mercado, identificar oportunidades e, acima de tudo, estar disposto a experimentar e aprender com os desafios. Com o uso inteligente das ferramentas como a programação, design de interfaces e análise de dados, é possível não apenas dar vida a ideias, mas também moldar o futuro digital de maneira significativa. O segredo está em entender as necessidades do mercado, identificar oportunidades e, acima de tudo, estar disposto a experimentar e aprender com os desafios. Com o uso inteligente das ferramentas como a programação, design de interfaces e análise de dados, é possível não apenas dar vida a ideias, mas também moldar o futuro digital de maneira significativa. O segredo está em entender as necessidades do mercado, identificar oportunidades e, acima de tudo, estar disposto a experimentar e aprender com os desafios.</P>
           </ContainerSobre>
           <ContainerImg>
-            <video width="100%" height="auto" autoPlay muted loop>
+            <video  autoPlay muted loop playsInline>
               <source src={VideoFile} type="video/mp4" />
             </video>
           </ContainerImg>
