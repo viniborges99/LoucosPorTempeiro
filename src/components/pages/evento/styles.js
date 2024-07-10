@@ -97,14 +97,9 @@ export const ContainerImg = styled.div`
     border-radius: 20px;
     object-fit: contain;
     padding: 80px 0px 10px 0px;
-    margin-left:50px;
+    
   }
-  @media (max-width: 1250px) {
-
-video {
-  width: 80%;
-}
-}
+ 
 
   @media (max-width: 768px) {
 
