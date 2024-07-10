@@ -93,18 +93,23 @@ export const ContainerImg = styled.div`
   justify-content: center;
   
   video {
+    width: 40%;
     border-radius: 20px;
     object-fit: contain;
     padding: 80px 0px 10px 0px;
-    
-    
+    margin-left:50px;
   }
+  @media (max-width: 1250px) {
 
-  @media (min-width: 768px) {
-    width: 50%;
+video {
+  width: 80%;
+}
+}
+
+  @media (max-width: 768px) {
 
     video {
-      width: 40%;
+      width: 80%;
     }
   }
 
@@ -144,6 +149,10 @@ export const ContainerItens = styled.div`
 `;
 
 export const Card = styled.div`
+  width: 100%;
+  max-width: 500px; /* Defina um tamanho máximo para o card */
+  //aspect-ratio: 3 / 2; /* Mantém a proporção do contêiner */
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -153,6 +162,7 @@ export const Card = styled.div`
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   margin: 0 auto;
+  overflow: hidden; /* Esconde partes da imagem que excedam o contêiner */
 
   @media (max-width: 768px) {
     padding: 12px;
@@ -161,11 +171,18 @@ export const Card = styled.div`
   @media (max-width: 480px) {
     padding: 8px;
   }
+
   @media (max-width: 380px) {
-    padding:5px;
+    padding: 5px;
   }
 `;
 
+export const ImgCard = styled.img`
+  width: 100%;
+  height: 100%;
+  border-radius: 4px; 
+  object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+`;
 export const Descrição = styled.p`
   font-size: 1rem;
   margin: 8px 0;
@@ -183,12 +200,6 @@ export const Descrição = styled.p`
 
 
 
-export const ImgCard = styled.img`
-  width: 100%;
-  height: auto;
-  border-radius: 4px; 
-  object-fit: cover;
-`;
 
 
 

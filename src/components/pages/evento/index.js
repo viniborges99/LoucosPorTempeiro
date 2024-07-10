@@ -1,10 +1,14 @@
 import React from 'react';
 import { Container, P, ContainerSobre, ContainerImg, ContainerSecundario, ContainerEventos, ContainerItens, Card, ImgCard, Descrição } from './styles';
-//import churrasqueiro from '../../../assets/pessoa-churrasco.jpg';
+
 import Header from '../../header/Header';
 import Costela from '../../../assets/carne.jpg';
 import Footer from '../footer';
 import VideoFile from '../../../assets/video-evento.mp4';
+import friosEvento from '../../../assets/frios-evento.jpg';
+import mesaEvento from '../../../assets/mesa-evento.jpg';
+import carneEvento from '../../../assets/churrasco-parrilha.jpg';
+import Arado from '../../../assets/arado.jpg';
 
 function Evento() {
   return (
@@ -27,7 +31,19 @@ function Evento() {
       <ContainerEventos>
         <ContainerItens>
           <Card>
-            <ImgCard src={Costela} />
+            <ImgCard src={friosEvento} />
+            <Descrição>Descrição do produto</Descrição>
+          </Card>
+          <Card>
+            <ImgCard src={mesaEvento} />
+            <Descrição>Descrição do produto</Descrição>
+          </Card>
+          <Card>
+            <ImgCard src={carneEvento} />
+            <Descrição>Descrição do produto</Descrição>
+          </Card>
+          <Card>
+            <ImgCard src={Arado} />
             <Descrição>Descrição do produto</Descrição>
           </Card>
           <Card>
@@ -38,30 +54,7 @@ function Evento() {
             <ImgCard src={Costela} />
             <Descrição>Descrição do produto</Descrição>
           </Card>
-          <Card>
-            <ImgCard src={Costela} />
-            <Descrição>Descrição do produto</Descrição>
-          </Card>
-          <Card>
-            <ImgCard src={Costela} />
-            <Descrição>Descrição do produto</Descrição>
-          </Card>
-          <Card>
-            <ImgCard src={Costela} />
-            <Descrição>Descrição do produto</Descrição>
-          </Card>
-          <Card>
-            <ImgCard src={Costela} />
-            <Descrição>Descrição do produto</Descrição>
-          </Card>
-          <Card>
-            <ImgCard src={Costela} />
-            <Descrição>Descrição do produto</Descrição>
-          </Card>
-          <Card>
-            <ImgCard src={Costela} />
-            <Descrição>Descrição do produto</Descrição>
-          </Card>
+          
         </ContainerItens>
       </ContainerEventos>
       <Footer />
