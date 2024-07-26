@@ -179,15 +179,19 @@ export const ImgCard = styled.img`
   object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
 `;
 export const Descrição = styled.p`
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 8px 0;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
   }
 
   @media (max-width: 480px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+
   }
   
 `;
