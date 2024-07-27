@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Evento from '../components/pages/evento';
 import Porcoes from '../components/pages/porçoes';
 import Temperos from '../components/pages/temperos';
-import Home from '../components/pages/Home';
-import ScrollTop from './scroll';
+import Home from '../components/Home';
+import ScrollTop from '../components/scroll';
 
 
 function Rotas() {

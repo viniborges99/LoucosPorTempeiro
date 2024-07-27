@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, P, ContainerSobre, ContainerImg, ContainerSecundario } from './styles';
-import Carlos from '../../assets/carlos-segurando-picanha.png';
+import Carlos from '../../../assets/carlos-segurando-picanha.png';
 
 
 function Sobre() {
