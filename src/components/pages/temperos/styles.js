@@ -56,7 +56,7 @@ export const Title = styled.p`
 export const P = styled.p`
 
   text-align: justify;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 8px 0;
   border-top: 1px solid #402721;
   padding-top: 10px;
@@ -65,12 +65,13 @@ export const P = styled.p`
 
 
   @media (max-width: 768px) {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
-  @media (max-width: 480px) {
-    font-size: 0.9rem;
-    font-weight: 600;
+  @media (max-width: 500px) {
+    font-size: 0.8rem;
+    line-height: 1.5em;
+    
   }
 `;
 
@@ -80,7 +81,7 @@ export const Card = styled.div`
   justify-content: space-around;
   align-items: center;
   max-width: 90%;
-  height: 700px;
+  height: auto;
   padding: 16px;
   background-color: white;
   border-radius: 8px;
@@ -88,17 +89,17 @@ export const Card = styled.div`
   margin: 0 auto;
 
   @media (max-width: 1024px) {
-    height: 450px;
+    height: 560px;
   }
 
   @media (max-width: 768px) {
-    padding: 12px;
+    padding: 10px;
     height: 850px;
   }
 
   @media (max-width: 480px) {
     padding: 8px;
-    height: 700px;
+    height: 750px;
   }
 `;
 

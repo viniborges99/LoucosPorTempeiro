@@ -8,8 +8,8 @@ import {
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const numeroWhatsApp = '5519982409589';
-  const mensagem = 'Olá nos da equipe loucos por temperos ficamos muito felizes em tê-lo(a) por aqui, o que podemos fazer por voce hoje?';
-  const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`;
+
+  const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}`;
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

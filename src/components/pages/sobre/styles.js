@@ -95,12 +95,22 @@ export const ContainerImg = styled.div`
     max-width: 750px;
     border-radius: 5px;
   }
+  @media (min-width: 1200px) {
+    width: 50%;
+    
+
+    img {
+      width: 100%;
+      
+    }
+  }
 
   @media (min-width: 768px) {
     width: 50%;
 
     img {
       width: 100%;
+      margin-left: 40px;
     }
   }
   @media (max-width: 380px) {

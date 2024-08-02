@@ -99,21 +99,38 @@ export const ContainerImg = styled.div`
     padding: 80px 0px 10px 0px;
     
   }
+  @media (max-width: 1300px) {
+
+  video {
+    width: 70%;
+    }
+  }
+  @media (min-width: 1200px) {
+
+  video {
+    width: 70%;
+    
+    }
+  }
  
 
   @media (max-width: 768px) {
 
     video {
-      width: 80%;
+      width: 100%;
+      margin-left:40px;
+      
     }
   }
 
-  @media (max-width: 414px) {
+  @media (max-width: 480px) {
     margin-bottom: 30px;
 
     video {
       width: 100%;
       height: 30%;
+      margin-right: 40px;
+      
     }
   }
 `;
