@@ -14,38 +14,43 @@ export const Container = styled.div`
 
 export const ContainerSecundario = styled.div`
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90vw;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
   align-items: center;
   margin: 0 auto;
 
-  @media (min-width: 480px) {
+
+
+  @media (max-width: 1200px) {
     flex-direction: row;
-    width: 85vw;
+    width: 100vw;
   }
 
-  @media (min-width: 768px) {
+  @media (max-width: 1024px) {
+    flex-direction: row;
+    width: 90vw;
+  }
+
+  @media (max-width: 768px) {
     flex-direction: row;
     width: 80vw;
   }
 
-  @media (min-width: 1024px) {
-    flex-direction: row;
-    width: 75vw;
+  @media (max-width: 480px) {
+    flex-direction: column;
+    width: 85vw;
   }
 
-  @media (min-width: 1200px) {
-    flex-direction: row;
-    width: 70vw;
-  }
+  
 `;
 
 
 export const ContainerSobre = styled.div`
-  width: 90%;
+  width: 50%;
   text-align: justify;
   margin-bottom: 30px;
+  
 
   h1 {
     font-size: 2rem;
@@ -53,15 +58,32 @@ export const ContainerSobre = styled.div`
     text-align: center;
     margin-top: 80px;
   }
-
-  @media (min-width: 768px) {
-    width: 50%;
+  @media (max-width: 860px) {
+    width: 100%;
 
     h1 {
-      font-size: 2.7rem;
+      font-size: 2rem;
+    }
+  }
+
+ 
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    h1{
+      font-size: 1.7rem;
+      padding-top: 10px;
     }
   }
   @media (max-width: 380px) {
+    width: 100%;
     h1{
       font-size: 1.3rem;
       padding-top: 10px;
@@ -70,13 +92,22 @@ export const ContainerSobre = styled.div`
 `;
 
 export const P = styled.p`
+
   font-size: 1rem;
   padding-top: 15px;
   color: #402721;
-  
 
-  @media (min-width: 768px) {
+  @media (min-width: 860px) {
     font-size: 1.3rem;
+    margin-bottom:none;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+    margin-bottom:none;
+  }
+  @media (max-width: 490px) {
+    font-size: 1rem;
     margin-bottom:none;
   }
   @media (max-width: 380px) {
@@ -86,45 +117,46 @@ export const P = styled.p`
 `;
 
 export const ContainerImg = styled.div`
-  width: 100%;  
+   
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   
   video {
-    width: 40%;
+    width: 70%;
     border-radius: 20px;
     object-fit: contain;
-    padding: 80px 0px 10px 0px;
+    padding: 0px 5px 30px 5px;
+    
     
   }
-  @media (max-width: 1300px) {
+
+  @media (max-width: 1200px) {
 
   video {
-    width: 70%;
-    }
-  }
-  @media (min-width: 1200px) {
-
-  video {
-    width: 70%;
+    width: 90%;
     
     }
   }
  
 
   @media (max-width: 768px) {
+    display: flex;
+    
 
     video {
-      width: 100%;
+      width: 80%;
       margin-left:40px;
+      margin-top: 15px;
       
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 490px) {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 
     video {
       width: 100%;
@@ -162,8 +194,7 @@ export const ContainerItens = styled.div`
 
 export const Card = styled.div`
   width: 100%;
-  max-width: 500px; /* Defina um tamanho máximo para o card */
-  //aspect-ratio: 3 / 2; /* Mantém a proporção do contêiner */
+  max-width: 500px; 
   height: auto;
   display: flex;
   flex-direction: column;
