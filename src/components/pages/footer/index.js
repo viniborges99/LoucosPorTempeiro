@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import { FooterContainer, IconLink } from './styles';
-const numeroWhatsApp = '5519982409589';
+const numeroWhatsApp = '55199824095899';
 const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}`;
 
 function Footer() {
